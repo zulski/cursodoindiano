@@ -1,0 +1,2 @@
+string spfc1 = 'trimundial'
+system.debug ('contains trimundial')? + spfc1.contains('trimundial')
