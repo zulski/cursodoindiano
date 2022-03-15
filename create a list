@@ -1,0 +1,3 @@
+//uma colecao ordenada de elementos do mesmo tipo de dados
+
+List <Integer> rollNumbers = newList < Integer> {111, 213, 143}
