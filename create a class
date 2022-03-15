@@ -1,0 +1,29 @@
+public class Pessoa (
+
+String nome;
+Integer idade;
+Decimal peso;
+Decimal altura;
+
+//construtor
+public Pessoa (String nomePessoa, Integer idadePessoa, Decimal pesoPessoa, Decimal alturaPessoa) {
+this.idade = idadePessoa
+this.nome = nomePessoa
+this.peso = pesoPessoa
+this.altura = alturaPessoa
+}
+
+//method
+public void exibirNome () {
+Systema.debug (this.nome);
+}
+public Decimal exibirIMC(){
+Decimal IMC = (this.peso/(this.altura * this.altura));
+return IMC;
+}
+}
+
+//JANELA ANONIMA
+Pessoa Eduardo = new Pessoa ('Eduardo', 24, 69, 1.80);
+Systema.debug (Eduardo)
+Eduardo.exibirNome ();
